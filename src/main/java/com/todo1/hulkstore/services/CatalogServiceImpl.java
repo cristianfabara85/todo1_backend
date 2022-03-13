@@ -6,7 +6,6 @@ import com.todo1.hulkstore.entities.Catalog;
 import com.todo1.hulkstore.entities.CatalogProduct;
 import com.todo1.hulkstore.repository.CatalogRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Service;
 
 @Service
