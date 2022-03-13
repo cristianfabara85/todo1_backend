@@ -20,4 +20,7 @@ public class StockService {
         stockRepository.updateStockPurchase(productoId, cantidad);
     }
 
+    public Long findAvailableStockByProductId(Long productoId){
+        return stockRepository.findAvailableStockByProductId(productoId);
+    }
 }
