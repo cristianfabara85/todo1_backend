@@ -28,7 +28,7 @@ public class LoginService {
             resultado=EncryptionUtil.decrypt(userData.getPassword(), Constantes.SECRET_KEY);
             if(resultado.equals(usuario.getPassword())){
                 response.setMessage(Constantes.LOGIN_OK);
-                response.setData(token);
+                response.setData(userData);
                 response.setCode(Constantes.CODE_OK);
             } else {
                 response.setMessage(Constantes.LOGIN_ERROR);

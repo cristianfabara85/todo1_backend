@@ -5,6 +5,6 @@ public interface UsuarioVO {
     String getCorreo();
     String getUsuario();
     String getPassword();
-    String getTipousuario();
+    String getTipo();
 
 }
