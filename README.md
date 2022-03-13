@@ -1,3 +1,11 @@
-# todo1_backend
+# hulkstore_backend
+Backend desarrollado con Java + SpringBoot
 
-Prueba todo 1
+La documentacipon de las apis se encuentra en el siguiente link 
+http://localhost:8080/swagger-ui.html
+
+El proyecto esta  realizado en IntellIJ, utilizando 
+Java SpringBoot,Maven,Swagger yPostgreSQL
+
+
+
